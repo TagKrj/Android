@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/a"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập a= "
+        android:layout_marginTop="50dp"
+        >
+    </EditText>
+
+    <EditText
+        android:id="@+id/b"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập b="
+        android:layout_marginTop="10dp"
+        >
+    </EditText>
+
+    <EditText
+        android:id="@+id/c"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập c="
+        android:layout_marginTop="10dp"
+        >
+    </EditText>
+
+    <Button
+        android:text="Tính"
+        android:id="@+id/Tinh"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="20dp"
+        >
+    </Button>
+
+    <Button
+        android:text="Xóa"
+        android:id="@+id/Xoa"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="-60dp"
+        android:layout_marginEnd="20dp"
+        android:layout_gravity="right">
+    </Button>
+</LinearLayout>
